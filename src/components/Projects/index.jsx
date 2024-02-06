@@ -5,6 +5,8 @@ import commentsApp from "../../assets/comments-app-output.png";
 import digitalTimer from "../../assets/digital-timer-output.png";
 import emojiGame from "../../assets/emoji-game-output.png";
 import moneyManager from "../../assets/money-manager-output.png";
+import popularBlog from "../../assets/popular-blog-output.png";
+import passwordManager from "../../assets/password-manager-output.png";
 
 const Projects = () => {
   return (
@@ -13,6 +15,13 @@ const Projects = () => {
         Projects
       </p>
       <div className="flex justify-center flex-wrap ">
+        <div className="flex flex-col text-center align-middle space-y-4 pb-8 px-4">
+        <img className="h-72 rounded-xl" src={passwordManager} />
+          <div className="space-x-4">
+          <a className='bg-cyan-500 px-2 py-2 hover:bg-cyan-600 rounded' href="https://password-manager-pi-ebon.vercel.app/">Live Demo</a>
+            <a href="https://github.com/harshsoni-harsh/password-manager">Github</a>
+          </div>
+        </div>
         <div className="flex flex-col text-center align-middle space-y-4 pb-8 px-4">
           <img className="h-72 rounded-xl" src={appStore} />
           <div className="space-x-4">
@@ -87,7 +96,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col text-center align-middle space-y-4 pb-8 px-4">
-          <div className="h-72 rounded-xl bg-gray-900 hover:bg-cyan-600 w-72 flex flex-col justify-center align-middle"><p>Responsive Popular Blog Page</p></div>
+        <img className="h-72 rounded-xl" src={popularBlog} />
           <div className="space-x-4">
           <a className='bg-cyan-500 px-2 py-2 hover:bg-cyan-600 rounded' href="https://sample-popular-blog-page.vercel.app/">Live Demo</a>
             <a href="https://github.com/harshsoni-harsh/sample-popular-blog-page">Github</a>
