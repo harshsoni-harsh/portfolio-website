@@ -1,5 +1,3 @@
-import photo from "../../assets/harsh-headshot.jpeg";
-
 const About = () => {
   return (
     <>
@@ -28,7 +26,7 @@ const About = () => {
           </button>
         </div>
         <div className="max-sm:pb-4 w-full sm:w-fit flex justify-center">
-          <img className="w-40 border-cyan-400 border-2 rounded-3xl h-40 shadow-lg" src={photo} />
+          <img className="w-40 border-cyan-400 border-2 rounded-3xl h-40 shadow-lg" src={"/images/harsh-headshot.jpeg"} />
         </div>
       </div>
     </>

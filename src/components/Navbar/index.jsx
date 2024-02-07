@@ -1,4 +1,4 @@
-import navImg from '../../assets/navigation-bar.svg'
+// import navImg from '../../assets/navigation-bar.svg'
 
 const Navbar = (props) => {
   const { id, setId } = props;
@@ -12,7 +12,7 @@ const Navbar = (props) => {
         <button className={(id === 'Projects' ? 'text-cyan-400' : '') + ' font-semibold'} onClick={() => setId("Projects")}>Projects</button>
       </div>
       <div className='sm:hidden'>
-        <img className='w-8 invert' src={navImg} />
+        <img className='w-8 invert' src="/images/navigation-bar.svg" />
       </div>
     </div>
   );

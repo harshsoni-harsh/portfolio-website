@@ -1,6 +1,4 @@
-import photo from "../../assets/harsh-headshot.jpeg";
-import cv from "../../assets/harsh-headshot.jpeg";
-import laptop from "../../assets/laptop.png";
+// import laptop from "../../assets/laptop.png";
 
 const Skills = () => {
   return (
@@ -49,7 +47,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="max-md:hidden w-3/6 flex flex-col justify-center">
-          <img src={laptop} alt="laptop image" />
+          <img src="/images/laptop.png" alt="laptop image" />
         </div>
       </div>
       <p className="max-lg:pt-4 text-center text-2xl underline decoration-cyan-400 decoration-2 underline-offset-8">
