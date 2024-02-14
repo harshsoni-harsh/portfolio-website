@@ -6,6 +6,12 @@ import Projects from "./components/Projects";
 
 const ProjectsList = [
   {
+    title: "Nxt Trendz Authentication System",
+    imgSrc: "/images/nxt-trendz-authentication-sm-outputs.png",
+    repoLink: "",
+    liveLink: "https://harshsonitrendz.ccbp.tech/login",
+  },
+  {
     title: "Image Matching game",
     imgSrc: "/images/match-game-output.png",
     repoLink: "https://github.com/harshsoni-harsh/match-game",

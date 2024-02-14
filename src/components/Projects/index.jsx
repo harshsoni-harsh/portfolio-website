@@ -1,5 +1,6 @@
 import ProjectCard from "../ProjectCard";
-import ProjectCardNoLive from "../ProjectCardNotLive";
+import ProjectCardNotLive from "../ProjectCardNotLive";
+import ProjectCardNoRepo from "../ProjectCardNoRepo";
 
 const Projects = (props) => {
   const { projectList } = props;
@@ -10,7 +11,15 @@ const Projects = (props) => {
       </p>
       <div className="flex justify-center flex-wrap ">
         {projectList.map((o) => {
-          if (o.liveLink !== "") {
+          if (o.repoLink === "") {
+            return (
+              <ProjectCardNoRepo
+                title={o.title}
+                imgSrc={o.imgSrc}
+                liveLink={o.liveLink}
+              />
+            );
+          } else if (o.liveLink !== "") {
             return (
               <ProjectCard
                 title={o.title}
@@ -20,12 +29,7 @@ const Projects = (props) => {
               />
             );
           } else {
-            return (
-              <ProjectCardNoLive
-                title={o.title}
-                repoLink={o.repoLink}
-              />
-            );
+            return <ProjectCardNotLive title={o.title} repoLink={o.repoLink} />;
           }
         })}
       </div>

@@ -1,4 +1,4 @@
-const ProjectCard = (props) => {
+const ProjectCardNoRepo = (props) => {
   const { title, imgSrc, repoLink, liveLink } = props;
   return (
     <div className="flex flex-col text-center align-middle space-y-4 pb-8 px-4">
@@ -15,10 +15,9 @@ const ProjectCard = (props) => {
         >
           Live Demo
         </a>
-        <a href={repoLink}>Github</a>
       </div>
     </div>
   );
 };
 
-export default ProjectCard;
+export default ProjectCardNoRepo;
