@@ -8,8 +8,8 @@ const ProjectsList = [
   {
     title: "Nxt Trendz Authentication System",
     imgSrc: "/images/nxt-trendz-authentication-sm-outputs.png",
-    repoLink: "",
-    liveLink: "https://harshsonitrendz.ccbp.tech/login",
+    repoLink: "https://github.com/harshsoni-harsh/nxt-trendz-application",
+    liveLink: "https://nxt-trendz-application.vercel.app/",
   },
   {
     title: "Image Matching game",
@@ -20,14 +20,14 @@ const ProjectsList = [
   {
     title: "App store",
     imgSrc: `/images/app-store-output.png`,
-    repoLink: "https://app-store-sage.vercel.app/",
-    liveLink: "https://github.com/harshsoni-harsh/app-store",
+    repoLink: "https://github.com/harshsoni-harsh/app-store",
+    liveLink: "https://app-store-sage.vercel.app/",
   },
   {
     title: "Password Manager",
     imgSrc: "/images/password-manager-output.png",
-    repoLink: "https://password-manager-pi-ebon.vercel.app/",
-    liveLink: "https://github.com/harshsoni-harsh/password-manager",
+    repoLink: "https://github.com/harshsoni-harsh/password-manager",
+    liveLink: "https://password-manager-pi-ebon.vercel.app/",
   },
   {
     title: "Appointment App",

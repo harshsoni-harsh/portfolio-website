@@ -20,8 +20,8 @@ const About = () => {
             </a>
           </div>
           <button className="bg-cyan-400 text-black text-md px-3 py-1 rounded-3xl">
-            <a href="#">
-              Download CV
+            <a href="https://drive.google.com/file/d/1MLPDt-unn5TKYaM5tAAZ68bsZaHqJ4BO/view?usp=sharing">
+              Download Resume
             </a>
           </button>
         </div>
