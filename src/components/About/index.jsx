@@ -20,7 +20,7 @@ const About = () => {
             </a>
           </div>
           <button className="bg-cyan-400 text-black text-md px-3 py-1 rounded-3xl">
-            <a href="https://drive.google.com/file/d/1MLPDt-unn5TKYaM5tAAZ68bsZaHqJ4BO/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1g7hD6o1djnQpR9ZP9BQmaq7DoahYuOPo/view?usp=sharing">
               Download Resume
             </a>
           </button>
@@ -29,6 +29,33 @@ const About = () => {
           <img className="w-40 border-cyan-400 border-2 rounded-3xl h-40 shadow-lg" src={"/images/harsh-headshot.jpeg"} />
         </div>
       </div>
+    <div className="space-y-2">
+      <p className="text-center text-2xl underline decoration-cyan-400 decoration-2 underline-offset-8">
+        Tech Stack
+      </p>
+      <div className="space-x-4 flex justify-center pt-4 pb-4">
+        <i className="text-3xl text-red-400 fa-brands fa-html5"></i>
+        <i className="text-3xl text-blue-600 fa-brands fa-css3-alt"></i>
+        <i className="text-3xl text-yellow-200 fa-brands fa-js"></i>
+        <i className="text-3xl text-cyan-400 fa-brands fa-react"></i>
+        <i className="text-3xl text-green-300 fa-brands fa-node-js"></i>
+        <i className="text-3xl fa-brands fa-linux"></i>
+        <i className="text-3xl fa-brands fa-docker"></i>
+        <img
+          className="h-8"
+          src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg"
+        />
+        <img
+          className="h-8"
+          src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
+        />
+        <i className="text-3xl fa-brands fa-github"></i>
+        <img
+          className="h-8"
+          src="https://tailwindcss.com/favicons/favicon-32x32.png"
+        />
+      </div>
+    </div>
     </>
   );
 };

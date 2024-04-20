@@ -5,25 +5,13 @@ import Projects from "./components/Projects";
 
 const ProjectsList = [
   {
-    title: "Nxt Watch App",
-    imgSrc: "/images/nxt-watch-app.png",
-    repoLink: "https://github.com/harshsoni-harsh/nxt-watch-app",
-    liveLink: "https://nxt-watch-app-three.vercel.app/",
-  },
-  {
-    title: "User management API",
-    imgSrc: "",
-    repoLink: "https://github.com/harshsoni-harsh/user-management-backend",
-    liveLink: "",
-  },
-  {
     title: "Jobby App",
     imgSrc: "/images/jobby-app-desktop.png",
     repoLink: "https://github.com/harshsoni-harsh/jobby-app",
     liveLink: "https://jobby-app-weld.vercel.app/",
   },
   {
-    title: "Nxt Trendz App",
+    title: "Nxt Trendz Authentication System",
     imgSrc: "/images/nxt-trendz-authentication-sm-outputs.png",
     repoLink: "https://github.com/harshsoni-harsh/nxt-trendz-application",
     liveLink: "https://nxt-trendz-application.vercel.app/",
